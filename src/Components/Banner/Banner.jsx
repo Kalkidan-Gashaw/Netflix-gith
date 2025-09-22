@@ -4,7 +4,6 @@ import requests from "../../utils/requests";
 import "./Banner.css";
 const Banner = () => {
   const [movie, setMovie] = useState({});
-  console.log(movie);
   React.useEffect(() => {
     const fetchData = async () => {
       try {
